@@ -117,6 +117,6 @@ class PierfilippoDiViccaro
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-pierfilippodiviccaro-00f5a0?style=for-the-badge&logo=github&logoColor=black)](https://github.com/pierfilippodiviccaro)
+[![Email](https://img.shields.io/badge/Email-diviccarofilippo@gmail.com-00f5a0?style=for-the-badge&logo=gmail&logoColor=black)](mailto:diviccarofilippo@gmail.com)
 
 </div>
-
