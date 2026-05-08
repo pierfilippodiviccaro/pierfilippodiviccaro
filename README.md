@@ -1,11 +1,10 @@
 <div align="center">
 
 <!-- Animated header banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0,080a0f,00f5a0&height=200&section=header&text=pierfilippodiviccaro&fontSize=40&fontColor=00f5a0&fontAlignY=38&desc=Jr.%20Web%20Developer%20%7C%20PHP%20%26%20Laravel%20Enthusiast&descAlignY=58&descSize=16&descColor=aaaaaa&animation=twinkling" />
 
 <!-- Typing animation -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=00F5A0&center=true&vCenter=true&width=600&lines=Ciao%2C+sono+Pierfilippo+%F0%9F%91%BE;Jr.+Web+Developer;PHP+%26+Laravel+%E2%9D%A4%EF%B8%8F;React+%2B+Vite+Frontend+Builder;Always+learning%2C+always+building." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=22&amp;pause=1000&amp;color=00F5A0&amp;center=true&amp;vCenter=true&amp;width=600&amp;lines=Ciao%2C+sono+Pierfilippo+%F0%9F%91%BE;Jr.+Web+Developer;PHP+%26+Laravel+%E2%9D%A4%EF%B8%8F;React+%2B+Vite+Frontend+Builder;Always+learning%2C+always+building." alt="Typing SVG" />
 </a>
 
 <br/>
@@ -90,7 +89,7 @@ class PierfilippoDiViccaro
 
 - **Backend:** Laravel · Eloquent ORM · MySQL · REST API
 - **Frontend:** React + Vite · CSS Modules · Animazioni custom
-- **Features:** CRUD completo · Upload immagini · Relazioni many-to-many (generi/piattaforme) · Carousel Alpine.js · Dark aesthetic
+- **Features:** CRUD completo · Upload immagini · Relazioni many-to-many (generi/piattaforme) · Carousel Alpine.js · Estetica Minimale ma efficace
 - 🔗 [Back Office →](https://github.com/pierfilippodiviccaro/progetto-finale-back-office) &nbsp;|&nbsp; [Guest Room →](https://github.com/pierfilippodiviccaro/Progetto-finale-guest-room)
 
 ---
@@ -103,15 +102,11 @@ class PierfilippoDiViccaro
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=pierfilippodiviccaro&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&bg_color=080a0f&border_color=00f5a0&title_color=00f5a0&icon_color=00f5a0&text_color=ffffff" />
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pierfilippodiviccaro&layout=compact&langs_count=8&theme=chartreuse-dark&bg_color=080a0f&border_color=00f5a0&title_color=00f5a0&text_color=ffffff" />
-
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=pierfilippodiviccaro&theme=dark&background=080a0f&border=00f5a0&ring=00f5a0&fire=ff4d6d&currStreakLabel=00f5a0&sideLabels=00f5a0&dates=aaaaaa&sideNums=ffffff&currStreakNum=ffffff)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=pierfilippodiviccaro&amp;theme=dark&amp;background=080a0f&amp;border=00f5a0&amp;ring=00f5a0&amp;fire=ff4d6d&amp;currStreakLabel=00f5a0&amp;sideLabels=00f5a0&amp;dates=aaaaaa&amp;sideNums=ffffff&amp;currStreakNum=ffffff)](https://git.io/streak-stats)
 
 </div>
 
@@ -125,12 +120,3 @@ class PierfilippoDiViccaro
 
 </div>
 
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0,00f5a0,080a0f&height=120&section=footer&animation=twinkling" />
-
-*"Il codice che funziona è il miglior portfolio."* 🎮
-
-</div>
