@@ -1,49 +1,101 @@
-import { useState } from "react";
-import { Copy, Check } from "lucide-react";
-import { Button } from "@/components/ui/button";
+<div align="center">
 
-const readmeContent = `<div align="center">
+<!-- Animated header banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0,080a0f,00f5a0&height=200&section=header&text=pierfilippodiviccaro&fontSize=40&fontColor=00f5a0&fontAlignY=38&desc=Jr.%20Web%20Developer%20%7C%20PHP%20%26%20Laravel%20Enthusiast&descAlignY=58&descSize=16&descColor=aaaaaa&animation=twinkling" />
 
-# Hi there, I'm Pierfilippo Di Viccaro 👋
+<!-- Typing animation -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=00F5A0&center=true&vCenter=true&width=600&lines=Ciao%2C+sono+Pierfilippo+%F0%9F%91%BE;Jr.+Web+Developer;PHP+%26+Laravel+%E2%9D%A4%EF%B8%8F;React+%2B+Vite+Frontend+Builder;Always+learning%2C+always+building." alt="Typing SVG" />
+</a>
 
-[![GitHub followers](https://img.shields.io/github/followers/pierfilippodiviccaro?label=Follow&style=social)](https://github.com/pierfilippodiviccaro)
-[![Profile Views](https://komarev.com/ghpvc/?username=pierfilippodiviccaro&color=blueviolet&style=flat-square)](https://github.com/pierfilippodiviccaro)
+<br/>
+
+<!-- Social badges -->
+[![GitHub](https://img.shields.io/badge/GitHub-pierfilippodiviccaro-00f5a0?style=for-the-badge&logo=github&logoColor=black)](https://github.com/pierfilippodiviccaro)
+[![Profile Views](https://komarev.com/ghpvc/?username=pierfilippodiviccaro&style=for-the-badge&color=00f5a0&label=PROFILE+VIEWS)](https://github.com/pierfilippodiviccaro)
 
 </div>
 
 ---
 
-## 🧑‍💻 About Me
+## 👾 Chi sono
 
-I'm a **Software Engineer** passionate about building clean, efficient, and scalable web applications.  
-I love crafting robust backends and polished user interfaces that deliver real value.
+```php
+<?php
 
-- 🔭 Currently working on exciting web projects
-- 🌱 Always learning and improving my craft
-- 💬 Ask me about **PHP, Laravel, JavaScript, or web development**
-- 📫 Reach me on [GitHub](https://github.com/pierfilippodiviccaro)
+class PierfilippoDiViccaro
+{
+    public string $role     = 'Jr. Web Developer';
+    public string $location = 'Italia 🇮🇹';
+    public string $focus    = 'PHP · Laravel · React';
+
+    public array $currentlyLearning = [
+        'Laravel (backoffice & API)',
+        'React + Vite (SPA)',
+        'MySQL & Eloquent ORM',
+        'RESTful architecture',
+    ];
+
+    public array $passions = ['coding', 'gaming 🎮', 'building cool stuff'];
+
+    public function ask(string $question): string
+    {
+        return match ($question) {
+            'open to work?' => 'Assolutamente sì! 🚀',
+            'favorite stack?' => 'Laravel + React',
+            default => 'Chiedimi pure!',
+        };
+    }
+}
+```
 
 ---
 
 ## 🛠️ Tech Stack
 
+<div align="center">
+
 ### Backend
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
 
 ### Frontend
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Alpine.js](https://img.shields.io/badge/Alpine.js-8BC0D0?style=for-the-badge&logo=alpine.js&logoColor=black)
 
-### Tools & Workflow
+### Tools & Environment
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white)
+![VSCode](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![Composer](https://img.shields.io/badge/Composer-885630?style=for-the-badge&logo=composer&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+### In corso di apprendimento
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20API-00f5a0?style=for-the-badge&logo=json&logoColor=black)
+
+</div>
+
+---
+
+## 🚀 Progetti in evidenza
+
+### 🎮 GameVault
+> *Backoffice Laravel + Frontend React per catalogare la propria collezione di videogiochi*
+
+- **Backend:** Laravel · Eloquent ORM · MySQL · REST API
+- **Frontend:** React + Vite · CSS Modules · Animazioni custom
+- **Features:** CRUD completo · Upload immagini · Relazioni many-to-many (generi/piattaforme) · Carousel Alpine.js · Dark aesthetic
+- 🔗 [Back Office →](https://github.com/pierfilippodiviccaro/progetto-finale-back-office) &nbsp;|&nbsp; [Guest Room →](https://github.com/pierfilippodiviccaro/Progetto-finale-guest-room)
+
+---
+
+> 🔧 *Altri progetti in arrivo — stay tuned!*
 
 ---
 
@@ -51,33 +103,25 @@ I love crafting robust backends and polished user interfaces that deliver real v
 
 <div align="center">
 
-![pierfilippodiviccaro's GitHub Stats](https://github-readme-stats.vercel.app/api?username=pierfilippodiviccaro&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=pierfilippodiviccaro&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&bg_color=080a0f&border_color=00f5a0&title_color=00f5a0&icon_color=00f5a0&text_color=ffffff" />
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pierfilippodiviccaro&layout=compact&theme=tokyonight&hide_border=true)
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pierfilippodiviccaro&layout=compact&langs_count=8&theme=chartreuse-dark&bg_color=080a0f&border_color=00f5a0&title_color=00f5a0&text_color=ffffff" />
 
-![GitHub Streak](https://streak-stats.demolab.com?user=pierfilippodiviccaro&theme=tokyonight&hide_border=true)
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=pierfilippodiviccaro&theme=dark&background=080a0f&border=00f5a0&ring=00f5a0&fire=ff4d6d&currStreakLabel=00f5a0&sideLabels=00f5a0&dates=aaaaaa&sideNums=ffffff&currStreakNum=ffffff)](https://git.io/streak-stats)
 
 </div>
 
 ---
 
-## 🚀 Featured Projects
-
-> 📌 Pin your best repositories on GitHub and they'll appear here. Here are some highlights:
-
-| Project | Description | Stack |
-|--------|-------------|-------|
-| 🔧 *Your Project 1* | Short description of what it does | Laravel, MySQL |
-| 🎨 *Your Project 2* | Short description of what it does | PHP, JS, TailwindCSS |
-| 📦 *Your Project 3* | Short description of what it does | Laravel, Vue.js |
-
----
-
-## 🤝 Connect With Me
+## 📬 Contatti
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-pierfilippodiviccaro-181717?style=for-the-badge&logo=github)](https://github.com/pierfilippodiviccaro)
+[![GitHub](https://img.shields.io/badge/GitHub-pierfilippodiviccaro-00f5a0?style=for-the-badge&logo=github&logoColor=black)](https://github.com/pierfilippodiviccaro)
 
 </div>
 
@@ -85,50 +129,8 @@ I love crafting robust backends and polished user interfaces that deliver real v
 
 <div align="center">
 
-*"First, solve the problem. Then, write the code."* — John Johnson
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0,00f5a0,080a0f&height=120&section=footer&animation=twinkling" />
 
-⭐️ Feel free to explore my repositories and leave a star if you find something useful!
+*"Il codice che funziona è il miglior portfolio."* 🎮
 
-</div>`;
-
-export default function Readme() {
-  const [copied, setCopied] = useState(false);
-
-  const handleCopy = () => {
-    navigator.clipboard.writeText(readmeContent);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
-  };
-
-  return (
-    <div className="min-h-screen bg-gray-950 text-gray-100 p-6">
-      <div className="max-w-4xl mx-auto">
-        <div className="flex items-center justify-between mb-6">
-          <div>
-            <h1 className="text-2xl font-bold text-white">GitHub Profile README</h1>
-            <p className="text-gray-400 text-sm mt-1">Copy the raw markdown and paste it into your <code className="bg-gray-800 px-1 rounded text-purple-400">pierfilippodiviccaro/pierfilippodiviccaro</code> repo as <code className="bg-gray-800 px-1 rounded text-purple-400">README.md</code></p>
-          </div>
-          <Button
-            onClick={handleCopy}
-            className="flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white"
-          >
-            {copied ? <Check className="w-4 h-4" /> : <Copy className="w-4 h-4" />}
-            {copied ? "Copied!" : "Copy Markdown"}
-          </Button>
-        </div>
-
-        <div className="bg-gray-900 border border-gray-700 rounded-xl overflow-hidden">
-          <div className="flex items-center gap-2 px-4 py-3 bg-gray-800 border-b border-gray-700">
-            <div className="w-3 h-3 rounded-full bg-red-500" />
-            <div className="w-3 h-3 rounded-full bg-yellow-500" />
-            <div className="w-3 h-3 rounded-full bg-green-500" />
-            <span className="ml-2 text-gray-400 text-sm">README.md</span>
-          </div>
-          <pre className="p-6 text-sm text-gray-300 whitespace-pre-wrap font-mono leading-relaxed overflow-auto max-h-[70vh]">
-            {readmeContent}
-          </pre>
-        </div>
-      </div>
-    </div>
-  );
-}
+</div>
